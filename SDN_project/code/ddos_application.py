@@ -2,7 +2,6 @@
 
 #Syn Flood Detection class
 #File: ddos_application.py
-#Author: Aaron McCullagh /40036410
 #Course: CSC7078: Secure Softwarized Networks
 #Description: class detects and mitigates TCP SYN flood attack by monitoring rate of 
 #TCP SYN packets per second on switch ports. When rate of packets per second exceeds 
