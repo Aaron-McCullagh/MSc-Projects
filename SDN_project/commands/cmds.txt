@@ -1,0 +1,26 @@
+mininet:
+pingall (test connectivity between all hosts)
+dpctl dump-flows (check flow rules)
+
+testing threshold: under/over
+h3 hping3 -i u10000 -S 10.0.0.4 (100 tcp syn packets per second from h3 to h4)
+h1 hping3 -i u1000 -S 10.0.0.2 (1000 tcp syn packtes per second from h1 to h2)
+
+xterm:
+xterm h1 
+xterm h2 
+xterm h3 
+xterm h4 
+wireshark & (launch wireshark)
+tcpdump -i h2-eth0 (launch packet analyser on h2 xterm)
+hping3 -S --flood 10.0.0.2 (syn flood initiated on h1 xterm)
+hping3 10.0.0.2 (launch legitimate TCP trafficon h3 xterm, directed at h2)
+hping3 10.0.0.3 (launch legitimate TCP traffic on h4 xterm, directed at h3)
+
+test bandwidth:
+iperf -s (setup server on h2 xterm)
+iperf -c h2 (setup client on h1 xterm to communicate with h2)
+
+server setup:
+python3 -m http.server 80 & (setup http server on host)
+wget -O -- 10.0.0.2 (get request to h2 http server)
