@@ -17,7 +17,6 @@ import java.util.TreeMap;
  * the presents a menu with several functions - searches and a thread based
  * write to file.
  * 
- * @author Aaron
  *
  */
 public class StartApp {
