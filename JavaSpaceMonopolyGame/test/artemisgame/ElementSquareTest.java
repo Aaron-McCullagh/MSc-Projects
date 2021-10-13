@@ -12,11 +12,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-/**
- * @author Thomas Scott Test class for ElementSquare. Note that aim is to test
- *         constructors, getters and setters, not to test the game logic itself
- *         - this is the job of the acceptance tests.
- */
+
 class ElementSquareTest {
 
 	// test data
