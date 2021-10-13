@@ -5,10 +5,7 @@ package artemisgame;
 
 import java.util.Comparator;
 
-/**
- * @author Andrew
- *
- */
+
 public class CompareResources implements Comparator<Player> {
 
 	@Override
