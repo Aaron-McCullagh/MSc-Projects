@@ -7,8 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Gameboard class to contain the squares
- * @author Andrew
+ * Gameboard class to contain the squares 
  *
  */
 public class Board {
