@@ -5,10 +5,7 @@ package artemisgame;
 
 import java.util.Comparator;
 
-/**
- * @author Andrew
- *
- */
+
 public class CompareIndex implements Comparator<ElementSquare> {
 
 	@Override
