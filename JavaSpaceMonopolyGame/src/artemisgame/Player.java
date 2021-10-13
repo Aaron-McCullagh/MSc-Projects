@@ -8,10 +8,7 @@ import java.util.Collections;
 import java.util.InputMismatchException;
 import java.util.List;
 
-/**
- * @author Andrew
- *
- */
+
 public class Player {
 	public static final int MAX_PLAYERS = 4;
 	public static final int MIN_PLAYERS = 2;
