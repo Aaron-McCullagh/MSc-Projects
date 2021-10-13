@@ -3,11 +3,7 @@
  */
 package artemisgame;
 
-/**
- * Basic square on a Board
- * @author Andrew
- *
- */
+
 public class Square {
 
 	private String name;
