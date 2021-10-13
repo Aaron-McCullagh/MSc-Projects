@@ -5,10 +5,7 @@ package artemisgame;
 
 import java.util.Random;
 
-/**
- * @author Andrew
- *
- */
+
 public class Dice {
 	
 	public static final int DIE_MAX = 6; // Change max number on die
