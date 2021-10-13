@@ -2,7 +2,6 @@ package p3;
 
 /**
  * Represents a player in the system
- * @author Aaron
  *
  */
 public class Player {
