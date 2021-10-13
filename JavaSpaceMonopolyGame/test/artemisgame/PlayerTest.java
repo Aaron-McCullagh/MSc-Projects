@@ -6,13 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-/**
- * 
- * @author Thomas Scott
- * Test class for Player. Note that aim is to test
- *         constructors, getters and setters, not to test the game logic itself
- *         - this is the job of the acceptance tests.
- */
+
 class PlayerTest {
 
 	// test data
