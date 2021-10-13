@@ -3,10 +3,7 @@
  */
 package artemisgame;
 
-/**
- * @author Andrew
- *
- */
+
 public class ElementSquare extends Square {
 
 	private static final int MAX_NUMBER_OF_DEVELOPMENTS = 4;
