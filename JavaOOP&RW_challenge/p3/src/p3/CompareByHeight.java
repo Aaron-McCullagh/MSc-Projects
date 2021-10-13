@@ -4,8 +4,7 @@ import java.util.Comparator;
 
 /**
  * Compares by height ; note use of complex seelction due to double (datatype) for height
- * @author Aaron
- *
+ * 
  */
 public class CompareByHeight implements Comparator<Player>{
 
