@@ -9,7 +9,6 @@ import java.io.IOException;
 
 /**
  * Thread based class that will output data in csv format 
- * @author Aidan
  *
  */
 public class WriteToFile implements Runnable {
