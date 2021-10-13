@@ -12,8 +12,7 @@ import java.util.Scanner;
 /**
  * Class controls the game play - creates, starts and end messages
  * 
- * @author Andrew
- */
+*/
 public class ArtemisMainGame {
 
 	public static List<Player> playerList = new ArrayList<Player>();
