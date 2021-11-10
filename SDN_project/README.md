@@ -71,7 +71,7 @@ Download & install Git, VirtualBox & Vagrant, and clone the SDN cockpit reposito
 8. Observe notification at controller that traffic has been blocked.
 9. In mininet pane check flow table by entering: **dpctl dump-flows**, to identify drop rule.
 10. Test connectivity in mininet pane enter: **pingall**, to observe malicous host has been blocked on the network.
-11. Observe legitmate TCP traffic on netwrok: enter: **h3 hping3 h2**, or **h4 hping3 h3**
+11. Observe legitmate TCP traffic on network: enter: **h3 hping3 h2**, or **h4 hping3 h3**
 
 
 
