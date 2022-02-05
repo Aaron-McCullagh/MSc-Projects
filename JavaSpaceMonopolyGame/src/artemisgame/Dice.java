@@ -8,7 +8,7 @@ import java.util.Random;
 
 public class Dice {
 	
-	public static final int DIE_MAX = 6; // Change max number on die
+	public static final int DICE_MAX = 6; // Change max number on dice
 	
 	private int faceValue;	
 	
@@ -18,7 +18,7 @@ public class Dice {
 	 */
 	public int rollDice() {
 		Random rand = new Random();
-		faceValue = rand.nextInt(DIE_MAX) + 1;
+		faceValue = rand.nextInt(DICE_MAX) + 1;
 		return faceValue;
 	}
 
